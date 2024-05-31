@@ -37,7 +37,7 @@
  #navbar ul li{
     list-style: none;
     font-size: 1.1rem ;
-    margin-right: 50px;
+    margin-right: 20px;
  }
  #navbar ul li a{
     color: rgb(8, 8, 8);
@@ -99,10 +99,10 @@
 #home img {
    border-radius: 100%;
    float: right;
-   margin-right: 100px;
+   margin-right: 80px;
    height: 400px;
    width: 400px;
-   margin-top: -300px;
+   margin-top: -380px;
 }
 
 .btn3{
@@ -134,7 +134,7 @@ text-decoration: underline;
 .all2 h1 {
    position: relative;
    top: 100px;
-   right: 270px;
+   right: 100px;
    margin-right: 234px;
 }
 .all2 li {
@@ -192,7 +192,7 @@ text-decoration: underline;
 
 
 #startup{
-   margin-top: 250px;
+   margin-top: 300px;
 }
 
 
@@ -237,12 +237,12 @@ text-decoration: underline;
 .start1 img {
    /* float: right; */
    position: relative;
-   right: -950px;
+   right: -750px;
    /* top: 10px; */
    height: 405px;
    width: 406px;
    margin-right: 50px;
-   margin-top: -290px;
+   margin-top: -310px;
    margin-bottom: 20px;
    border-radius: 5%;
 }
