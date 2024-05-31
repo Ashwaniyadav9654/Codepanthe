@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1024px) {
+
+    .containe{
+        overflow: hidden;
+      }
+
+
+    #home {
+        width: 100%;
+        background-color: rgba(241, 241, 241, 1);
+        height: 50px;
+        margin-top: 50px;
+     }
+     .home h1 {
+        font-size: 70px;
+        margin-left: 100px;
+        margin-top: 70px;
+     }
+     .highlight {
+        color: rgb(229, 110, 31);
+     }
+     .home p {
+        color: rgba(100, 100, 100, 1);
+        font-size: 25px;
+        margin-left: 100px;
+        margin-top: -50px;
+     }
+     #home img {
+        border-radius: 100%;
+        float: right;
+        margin-right: 30px;
+        height: 300px;
+        width: 300px;
+        margin-top: -200px;
+     }
+     
+     .btn3{
+     border: none;
+     cursor: pointer;
+     text-decoration: underline;
+        color: rgba(246, 93, 13, 1);
+        margin-left: 90px;
+        margin-top: 30px;
+        font-size: large;
+     }
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

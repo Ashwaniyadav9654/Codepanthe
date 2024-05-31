@@ -1,3 +1,9 @@
+
+.containe{
+   overflow: hidden;
+ }
+
+
 #navbar{
     
     display: flex;
@@ -44,12 +50,12 @@
     border-radius: 15%;
   }
   #navbar img{
-     margin-top: 0px;
-     height: 80px;
-     width: 80px;
+     margin-top: 25px;
+     height: 100px;
+     width: 200px;
   }
   .btn1{
-   margin-right: 20px;
+   
     background: linear-gradient(135deg, rgb(232, 164, 17) 0%, rgb(229, 110, 31) 100%);
     font-size: medium;
     border-radius: 8%;
@@ -61,9 +67,10 @@
 
 }
 .btn2 {
+   
    font-size: medium;
    color: white;
-   background-color: darkslateblue;
+   background-color: rgba(35, 35, 35, 1);
    border-radius: 8%;
    border: none;
    height: 30px;
@@ -71,7 +78,7 @@
    cursor: pointer;
 }
 #home {
-   background-color: lightgray;
+   background-color: rgba(241, 241, 241, 1);
    height: 500px;
    margin-top: 50px;
 }
@@ -84,6 +91,8 @@
    color: rgb(229, 110, 31);
 }
 .home p {
+   color: rgba(100, 100, 100, 1);
+   font-size: 25px;
    margin-left: 100px;
    margin-top: -50px;
 }
@@ -95,14 +104,47 @@
    width: 400px;
    margin-top: -300px;
 }
-/* .all2 h1 {
-   margin-top: -490px;
+
+.btn3{
+border: none;
+cursor: pointer;
+text-decoration: underline;
+   color: rgba(246, 93, 13, 1);
+   margin-left: 90px;
+   margin-top: 30px;
+   font-size: large;
+}
+
+
+
+#Entrepreneur{
+   margin-top: 80px;
+}
+
+.all1 img{
+   border-radius: 5%;
+   margin-left: 100px;
+   }
+   
+
+
+
+
+
+.all2 h1 {
+   position: relative;
+   top: 100px;
+   right: 270px;
    margin-right: 234px;
 }
 .all2 li {
-   margin-top: -115px;
-   padding: 2px 10px;
-} */
+   position: relative;
+   top: 100px;
+   
+   
+   margin-right: 5px;
+   padding: 2px 1px;
+}
 
 .all2 h1{
    margin-top: -418px;
@@ -111,20 +153,59 @@
 
 }
 .all2 li{
+   /* position: relative; */
+
+   
    margin-left: 630px;
    margin-top: -125px;
 }
-#Entrepreneur{
-   margin-top: 20px;
+
+
+.btn8{
+   background: linear-gradient(135deg, rgb(232, 164, 17) 0%, rgb(229, 110, 31) 100%);
+   font-size: medium;
+   border-radius: 8%;
+   border: none;
+   height: 45px;
+   width: 155px;
+   cursor: pointer;
+   color: white;
+   position: relative;
+   top: 420px;
+   right: -750px;
 }
+
+.btn9{
+   position: relative;
+   top: 420px;
+   right: -750px;
+
+   background-color: darkslateblue;
+   font-size: medium;
+   border-radius: 8%;
+   border: none;
+   height: 45px;
+   width: 155px;
+   cursor: pointer;
+   color: white;
+}
+
+
 #startup{
-   margin-top: 200px;
+   margin-top: 250px;
 }
+
+
+
+
+
+
 #startup h1 {
+
    margin-left: 200px;
 }
 #startup li {
-   margin-left: 100px;
+   margin-left: 200px;
 }
 .btn6 {
    background: linear-gradient(135deg, rgb(232, 164, 17) 0%, rgb(229, 110, 31) 100%);
@@ -154,12 +235,16 @@
    color: rgb(229, 110, 31);
 }
 .start1 img {
-   float: right;
-   height: 295px;
+   /* float: right; */
+   position: relative;
+   right: -950px;
+   /* top: 10px; */
+   height: 405px;
    width: 406px;
    margin-right: 50px;
    margin-top: -290px;
    margin-bottom: 20px;
+   border-radius: 5%;
 }
 .highlight{
    color: rgb(229, 110, 31);
@@ -169,16 +254,23 @@
 }
 #Exam{
    margin-top: 150px;
-   background-color: lightgray;
+   background-color: rgba(241, 241, 241, 1);
    height: 400px;
 }
+
 
 .exam1 h1{
    text-align: center;
    color: white;
 }
+
+
 .exam1 {
-   margin-left: 50px;
+  
+  position: relative;
+  top: 100px;
+   margin-left: 300px;
+   
    width: 350px;
    height: 150px;
    background: linear-gradient(135deg, rgb(232, 164, 17) 0%, rgb(229, 110, 31) 100%);
@@ -188,8 +280,12 @@
 
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }
+
 .exam2{
+   position: relative;
+   top: -150px;
 margin-left: 400px;
+
 background-color:aliceblue;
 width: 450px;
 height: 220px;
@@ -212,8 +308,9 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
    height: 125px;
    width: 410px;
 }
+
 .foot{
-   background-color: black;
+   background-color:rgba(16, 24, 40, 1);
    height: 300px;
 }
 .img{
@@ -223,6 +320,13 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
    color: white;
    margin-left: -210px;
 }
+.foot h7{
+   color: white;
+   
+   margin-left: 35px;
+}
+
+
 .foot h9{
    color: white;
 }
@@ -263,4 +367,5 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 .footer{
    color: gray;
    margin-top: 100px;
+   margin-left: 100px;
 }
